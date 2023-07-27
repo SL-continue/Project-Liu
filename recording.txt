@@ -1,0 +1,36 @@
+Scene1:
+
+ray_number = 10000, 6 surfaces, each surface 16 patches, montecarlo, time: 0.956614 seconds
+
+ray_number = 10000, 6 surfaces, each surface 64 patches, montecarlo, time: 14.316506 seconds
+
+ray_number = 10000, 6 surfaces, each surface 256 patches, montecarlo, time: 210.892218 seconds
+
+
+ray_number = 50000, 6 surfaces, each surface 16 patches, montecarlo, time: 4.671 seconds
+
+ray_number = 50000, 6 surfaces, each surface 64 patches, montecarlo, time: 71.212 seconds
+
+ray_number = 50000, 6 surfaces, each surface 256 patches, montecarlo, time: 1069.199044 seconds
+
+
+
+
+hemicube: 16 patches: 0.1097 seconds
+
+hemicube: 64 patches: 1.689 seconds
+
+hemicube: 256 patches: 24.7927 seconds
+
+Scene2: 
+hemicube: 16 * 12 patches: 0.4199 seconds
+
+hemicube: 64 * 12 patches: 6.2081 seconds
+
+hemicube: 256 * 12 patches: 98.9729 seconds
+
+ray_number = 10000, 6 surfaces, each surface 256 patches, montecarlo, time: 865.448560 seconds
+
+ray_number = 10000, 6 surfaces, each surface 64 patches, montecarlo, time: 52.98 seconds
+
+ray_number = 10000, 6 surfaces, each surface 16 patches, montecarlo, time: 3.7234 seconds
